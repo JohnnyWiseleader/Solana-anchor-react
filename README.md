@@ -7,7 +7,6 @@ Solana x Anchor x React in Docker.
 - Solana CLI v 2.1.17
 - Node latest
 - npm latest
-- n latest
 - Anchor CLI latest
 - React latest
 

@@ -23,7 +23,7 @@ Please version up to latest all. Especially Solana CLI.
 
 2. Run Docker. Make sure you are running Docker Desktop before this.
 ```
-% docker compose up -d --build
+docker compose up -d --build
 ```
 
 3. Check running App in Docker Desktop.
@@ -31,15 +31,15 @@ Please version up to latest all. Especially Solana CLI.
 ## Connecting to Docker
 Get Docker NAME.
 ```
-% docker ps
+docker ps
+```
 NAME                                    COMMAND             SERVICE             STATUS              PORTS
 solana-anchor-react-app-1               "bash"              app                 running             0.0.0.0:3000->3000/tcp
-```
 
 If you get "no configuration file provided: not found" error, you are in the wrong directory. You need to be in download directory.
 
 Connecting to Docker.
 % docker exec -it [NAME] bash
 ```
-% docker container exec -it solana-anchor-react-app-1 bash
+docker container exec -it solana-anchor-react-app-1 bash
 ```
